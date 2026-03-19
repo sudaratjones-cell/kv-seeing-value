@@ -12,8 +12,8 @@
 <button onclick="saveData('แย่')">เริ่มแย่</button>
 
 <script>
-const SUPABASE_URL = "PASTE_URL_HERE";
-const SUPABASE_KEY = "PASTE_KEY_HERE";
+const SUPABASE_URL = "https://lkhcirvwgbcwkoekwutu.supabase.co";
+const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxraGNpcnZ3Z2Jjd2tvZWt3dXR1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzM4NTcwMTksImV4cCI6MjA4OTQzMzAxOX0.Y5GxCU13IFpzF-KvtOrYvr0W4Xzc5czbY7CZF3MYkHU;
 
 async function saveData(q1) {
   await fetch(SUPABASE_URL + "/rest/v1/answers", {
