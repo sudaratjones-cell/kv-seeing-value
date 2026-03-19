@@ -7,9 +7,11 @@
 
 <h2>ตอนนี้ชีวิตเราเป็นยังไงบ้างนะ</h2>
 
-<button onclick="saveData('ไปได้ดี'); nextStep()">ไปได้ดี</button>
-<button onclick="saveData('เฉย ๆ'); nextStep()">เฉย ๆ</button>
-<button onclick="saveData('เริ่มแย่'); nextStep()">เริ่มแย่</button>
+<div style="display:flex; gap:10px;">
+  <button onclick="alert('ไปได้ดี')">ไปได้ดี</button>
+  <button onclick="alert('เฉย ๆ')">เฉย ๆ</button>
+  <button onclick="alert('เริ่มแย่')">เริ่มแย่</button>
+</div>
 <script>
 const SUPABASE_URL = "https://lkhcirvwgbcwkoekwutu.supabase.co";
 const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxraGNpcnZ3Z2Jjd2tvZWt3dXR1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzM4NTcwMTksImV4cCI6MjA4OTQzMzAxOX0.Y5GxCU13IFpzF-KvtOrYvr0W4Xzc5czbY7CZF3MYkHU;
